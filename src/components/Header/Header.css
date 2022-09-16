@@ -1,0 +1,41 @@
+.header {
+    background: linear-gradient(to bottom right, rgba(71, 45, 45, 0.6), rgba(84, 56, 56, 0.6)), url("/public/img/Sport-Blue-White.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.header__h1 {
+    font-size: 9rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+.header__h2 {
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+.header__button {
+    font-size: 2rem;
+    background: #A62349;
+    border: none;
+    padding: 1rem 4rem;
+    margin-top: 5rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+}
+
+.header__button:hover {
+    background: hsl(343, 65%, 30%);
+    cursor: pointer;
+}

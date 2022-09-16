@@ -1,0 +1,29 @@
+.section {
+    min-height: 100vh;
+    padding-bottom: 4rem;
+
+    /* background: rebeccapurple; */
+}
+
+.section__header {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A77979;
+    font-size: 6rem;
+    gap: 3rem;
+}
+
+.section__h2 {
+    color: #A77979;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+.section__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+    flex-wrap: wrap;
+}
