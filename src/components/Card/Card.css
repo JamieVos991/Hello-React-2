@@ -27,7 +27,11 @@
 
 .card__section {
     height: 30%;
-    background: #A77979;
+    color: #eee;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     padding: 2rem;

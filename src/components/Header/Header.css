@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(to bottom right, rgba(71, 45, 45, 0.6), rgba(84, 56, 56, 0.6)), url("/public/img/Sport-Blue-White.jpg");
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/public/img/Yellow.jpg"); 
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -8,20 +8,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #E7F6F2;
     text-align: center;
     
 }
 
 .header__h1 {
     font-size: 9rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-weight: 400;
 }
 
 .header__h2 {
-    font-size: 6rem;
-    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
     font-weight: 400;
 }
 
@@ -30,7 +30,7 @@
     background: #A62349;
     border: none;
     padding: 1rem 4rem;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     border-radius: 0.5rem;
     transition: 0.2s;
 }
@@ -39,3 +39,4 @@
     background: hsl(343, 65%, 30%);
     cursor: pointer;
 }
+

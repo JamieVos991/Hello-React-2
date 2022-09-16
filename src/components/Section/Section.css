@@ -1,7 +1,6 @@
 .section {
     min-height: 100vh;
     padding-bottom: 4rem;
-
     /* background: rebeccapurple; */
 }
 
@@ -10,13 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #A77979;
+    color: #E7F6F2;
     font-size: 6rem;
     gap: 3rem;
 }
 
 .section__h2 {
-    color: #A77979;
+    color: #E7F6F2;
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
 }
